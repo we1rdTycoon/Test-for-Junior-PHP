@@ -2,6 +2,7 @@
 1) Скачать к себе.
 2) В командной стрке docker-compose up
 3) В браузере http://localhost:8000/
+
 ![Image alt](https://github.com/we1rdTycoon/Test-for-Junior-PHP/raw/main/Безымянный.png)
 
 Задание:
