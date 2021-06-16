@@ -1,7 +1,8 @@
 # Test-for-Junior-PHP
 1) Скачать к себе.
-2) В командной стрке docker-compose up
-3) В браузере http://localhost:8000/
+2) Перейти в директорию с проектом
+3) В командной стрке docker-compose up
+4) В браузере http://localhost:8000/
 
 ![Image alt](https://github.com/we1rdTycoon/Test-for-Junior-PHP/raw/main/Безымянный.png)
 
