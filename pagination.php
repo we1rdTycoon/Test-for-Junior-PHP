@@ -24,7 +24,7 @@
  $a = $_POST["method"];
  if($a == 2)  
  {  
-     $query = "SELECT employee.FIO, dateup, datedown, reason, salary, heads.FIO1 FROM otdel_kadrov.employee LEFT JOIN heads on employee.head = heads.IdHeads WHERE CURDATE()< date_add(dateup, INTERVAL 3 MONTH) ORDER BY FIO LIMIT $start_from, $record_per_page;";  
+     $query = "SELECT employee.FIO, dateup, datedown, reason, salary, heads.FIO1 FROM otdel_kadrov.employee LEFT JOIN heads on employee.head = heads.IdHeads WHERE CURDATE()<= date_add(dateup, INTERVAL 3 MONTH) ORDER BY FIO LIMIT $start_from, $record_per_page;";  
  } else if ($a==1){
      $query = "SELECT employee.FIO, dateup, datedown, reason, salary, heads.FIO1 FROM otdel_kadrov.employee LEFT JOIN heads on employee.head = heads.IdHeads LIMIT $start_from, $record_per_page;";  
  }else if($a==3){
